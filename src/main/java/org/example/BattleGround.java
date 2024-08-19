@@ -1,8 +1,8 @@
 package org.example;
 
-import org.example.enemys.Enemy;
-import org.example.enemys.Vampire;
-import org.example.enemys.Zombie;
+import org.example.enemies.Enemy;
+import org.example.enemies.Vampire;
+import org.example.enemies.Zombie;
 import org.example.heroes.Archer;
 import org.example.heroes.Hero;
 import org.example.heroes.Mage;

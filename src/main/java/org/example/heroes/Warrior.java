@@ -1,6 +1,6 @@
 package org.example.heroes;
 
-import org.example.enemys.Enemy;
+import org.example.enemies.Enemy;
 
 public class Warrior extends Hero {
     public Warrior(String name, int health) {

@@ -1,6 +1,6 @@
 package org.example.heroes;
 
-import org.example.enemys.Enemy;
+import org.example.enemies.Enemy;
 import org.example.Mortal;
 
 public abstract class Hero implements Mortal {

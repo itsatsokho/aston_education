@@ -1,6 +1,6 @@
 package org.example.heroes;
 
-import org.example.enemys.Enemy;
+import org.example.enemies.Enemy;
 
 public class Archer extends Hero {
 

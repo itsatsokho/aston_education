@@ -1,4 +1,4 @@
-package org.example.enemys;
+package org.example.enemies;
 
 import org.example.heroes.Hero;
 

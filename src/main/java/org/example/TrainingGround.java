@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.enemys.Enemy;
+import org.example.enemies.Enemy;
 import org.example.heroes.Archer;
 import org.example.heroes.Hero;
 import org.example.heroes.Mage;
