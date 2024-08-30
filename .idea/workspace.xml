@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a8a539-503e-4fcb-b99c-062e8a829e8a" name="Changes" comment="Add lyambdas homework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/streamshw/PuttingIntoPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/streamshw/Trader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/streamshw/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/streamshw/readme.txt" afterDir="false" />
+    <list default="true" id="01a8a539-503e-4fcb-b99c-062e8a829e8a" name="Changes" comment="Add streams homework">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CustomCollection/CustomArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CustomCollection/CustomArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CustomCollection/CustomComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CustomCollection/CustomList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +56,26 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PuttingIntoPractice">
+  <component name="RunManager" selected="Application.CustomArrayListDemo">
     <configuration name="BattleGround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BattleGround" />
       <module name="AstonEduProjects" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.heroes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CustomCollection.CustomArrayListDemo" />
+      <module name="AstonEduProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CustomCollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomArrayListDemo" />
         <item itemvalue="Application.PuttingIntoPractice" />
         <item itemvalue="Application.BattleGround" />
         <item itemvalue="Application.TrainingGround" />
@@ -117,7 +131,14 @@
       <workItem from="1724098384419" duration="318000" />
       <workItem from="1724170323947" duration="893000" />
       <workItem from="1724272618651" duration="1426000" />
-      <workItem from="1724438417124" duration="6180000" />
+      <workItem from="1724438417124" duration="6480000" />
+      <workItem from="1724495138527" duration="1461000" />
+      <workItem from="1724507025992" duration="3463000" />
+      <workItem from="1724589535675" duration="6660000" />
+      <workItem from="1724774120847" duration="1456000" />
+      <workItem from="1724887389652" duration="2779000" />
+      <workItem from="1724942401130" duration="3727000" />
+      <workItem from="1725045584767" duration="10582000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1724026266944</created>
@@ -133,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724098541754</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add streams homework">
+      <created>1724444795323</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724444795323</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +194,17 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Orthography correction" />
     <MESSAGE value="Add lyambdas homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add lyambdas homework" />
+    <MESSAGE value="Add streams homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add streams homework" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
