@@ -87,14 +87,15 @@ public class CustomArrayList<E> extends CustomComparator implements CustomList<E
         System.arraycopy(tmp, 0, elementData, 0, tmp.length);
     }
 
-    public static <E extends Comparable<E>> Object[] bubbleSort(CustomArrayList<E> c) {
-        Object[] tmp = c.elementData;
+    //Bubble Sort Collection
+    public static <T extends Comparable<T>> void bubbleCollectionSort(Collection<T> collection) {
+        Object[] tmp = collection.toArray();
         Object temp;
         boolean isSorted;
         do {
             isSorted = true;
             for (int i = 1; i < tmp.length; i++) {
-                    if (new CustomComparator<E>().compare((E)tmp[i - 1], (E)tmp[i]) > 0) {
+                    if (((T)tmp[i - 1]).compareTo((T)tmp[i]) > 0) {
                         temp = tmp[i - 1];
                         tmp[i - 1] = tmp[i];
                         tmp[i] = temp;
@@ -102,7 +103,28 @@ public class CustomArrayList<E> extends CustomComparator implements CustomList<E
                     }
             }
         } while (!isSorted);
-        return tmp;
+        collection.clear();
+        for (Object o : tmp) {
+            collection.add((T) o);
+        }
+    }
+
+    //Bubble Sort CustomArrayList
+    public static <T extends Comparable<T>> void bubbleCustomCollectionSort(CustomArrayList<T> c) {
+        Object[] tmp = c.elementData;
+        Object temp;
+        boolean isSorted;
+        do {
+            isSorted = true;
+            for (int i = 1; i < tmp.length; i++) {
+                if (new CustomComparator<T>().compare((T)tmp[i - 1], (T)tmp[i]) > 0) {
+                    temp = tmp[i - 1];
+                    tmp[i - 1] = tmp[i];
+                    tmp[i] = temp;
+                    isSorted = false;
+                }
+            }
+        } while (!isSorted);
     }
 
 

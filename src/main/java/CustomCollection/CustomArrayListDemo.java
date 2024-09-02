@@ -12,7 +12,7 @@ public class CustomArrayListDemo {
         str.add("Maxim3");
         str.add("Maxim7");
         str.add("Maxim2");
-        str.add("Maxim10");
+        str.add("Maxim9");
         str.add("Maxim4");
         str.add(12,"Maxim5");
         System.out.println(str);
@@ -37,6 +37,13 @@ public class CustomArrayListDemo {
         integers.add(1);
         integers.add(7);
         System.out.println(integers);
+        ArrayList<String> strings = new ArrayList<>();
+        strings.add("Maxim3");
+        strings.add("Maxim7");
+        strings.add("Maxim2");
+        strings.add("Maxim9");
+        strings.add("Maxim4");
+        System.out.println(strings);
 
         //demo initialize CustomArrayList from Collection
         System.out.println("---Output CustomArrayList initialized from ArrayList---");
@@ -45,10 +52,14 @@ public class CustomArrayListDemo {
 
         //bubblesort
         System.out.println("---BubbleSort---");
-        CustomArrayList.bubbleSort(str);
-        System.out.println(str);
-        CustomArrayList.bubbleSort(customIntegers);
+        CustomArrayList.bubbleCollectionSort(integers);
+        System.out.println(integers);
+        CustomArrayList.bubbleCollectionSort(strings);
+        System.out.println(strings);
+        CustomArrayList.bubbleCustomCollectionSort(customIntegers);
         System.out.println(customIntegers);
+        CustomArrayList.bubbleCustomCollectionSort(str);
+        System.out.println(str);
 
 
         //demo getting element from CustomArrayList
